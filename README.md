@@ -13,11 +13,20 @@
   NO FUNCIONA
   
 //// WiFi UDP connection ////
+
 #include <WiFi.h>
+
 #include <WiFiUdp.h>
+
 const char* ssid     = "ESPdatos";
+
 const char* password = "respiracion";
+
 IPAddress ip(192, 168, 4, 1);
+
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+
 WiFiUDP Udp;
+
 IPAddress myIP;  
+
